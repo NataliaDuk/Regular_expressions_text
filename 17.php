@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Voina_i_mir</title>
-	<link rel="stylesheet" href="style2656.css">
+	<link rel="stylesheet" href="style2657.css">
 </head>
 
 <body>
@@ -21,7 +21,7 @@
 	<?php
 	$ret = file_get_contents('voina-i-mir (1).txt');
 
-	echo "<h2>Количество слов сударь в романе (без склонений)</h2>";
+	echo "<h2>Количество слов сударь (без склонений) в романе </h2>";
 	preg_match_all('/\bсударь\b/iu', $ret, $str);
 
 
@@ -34,7 +34,7 @@
 
 	echo "<br><b>Итого:" .count($str[0]). "<b><br>";
 
-	echo "<h2>Варианты слов сударь в романе (в склонении)</h2>";
+	echo "<h2>Варианты слов сударь (в склонении) в романе </h2>";
 
 	preg_match_all('/\bсудар([^ь]*?)\b/iu', $ret, $str1);
 	foreach ($str1[0] as $key => $row) {
@@ -47,10 +47,9 @@
 	?>
 </div>
 <div class=gallery_right>
-    <img src="images4.jpg" width="500px" height="300px" alt=""><br>
-    <img src="images5.jpg" width="500px" height="400px" lt=""><br>
-    
-    
+    <img src="images4.jpg" width="400px" height="250px" alt=""><br>
+    <img src="images5.jpg" width="400px" height="300px" alt=""><br>
+	<img src="10_1.jpg" width="400px" height="400px" alt=""><br>
     </div>
 </body>
 
