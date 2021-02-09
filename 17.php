@@ -12,7 +12,7 @@
 <body>
 <div class=gallery>
     <img src="imges1.jpg" width="250px" height="300px" alt=""><br>
-    <img src="images2.jpg" awidth="300px" height="300px" lt=""><br>
+    <img src="images2.jpg" width="250px" height="300px" lt=""><br>
     <img src="images3.jpg" width="250px" height="300px" alt=""><br>
     
     </div>
