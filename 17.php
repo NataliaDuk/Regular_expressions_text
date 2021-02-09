@@ -11,10 +11,10 @@
 
 <body>
 <div class=gallery>
-    <img src="images7.jpg" width="450px" height="300px" alt="">
-    <img src="images2.jpg" awidth="450px" height="300px" lt="">
-    <img src="images3.jpg" width="450px" height="300px" alt="">
-    <img src="images8.jpg" width="450px" height="300px" alt="">
+    <img src="imges1.jpg" width="250px" height="300px" alt=""><br>
+    <img src="images2.jpg" awidth="300px" height="300px" lt=""><br>
+    <img src="images3.jpg" width="250px" height="300px" alt=""><br>
+    
     </div>
 <div class="list">
 <h1>Роман Война и мир<br><i>Толстой Л.Н.<i></h1>
@@ -46,6 +46,12 @@
 	echo "<br><b>Итого:  " . count($str1[0]) . "<b>";
 	?>
 </div>
+<div class=gallery_right>
+    <img src="images4.jpg" width="500px" height="300px" alt=""><br>
+    <img src="images5.jpg" width="500px" height="400px" lt=""><br>
+    
+    
+    </div>
 </body>
 
 </html>

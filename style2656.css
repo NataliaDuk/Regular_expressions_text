@@ -11,12 +11,31 @@ h1 {
      
  }
 
-div {
-   
+.list  {
+    position: relative;
+    display: block;
+    margin-left: 150px;
     text-align: center;
     font: bold 16pt Arial, Helvetica, sans-serif;
+    float: left;
 
 }
+.gallery  {
+    position: relative;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 50px;
+    margin-top: 30px;
+    float: left;
+}
 
-
+.gallery_right  {
+    position: relative;
+    margin-bottom: 10px;
+    display: block;
+    margin-right: 50px;
+    margin-top: 50px;
+    line-height: 200px;
+    float: right;
+    }
     
