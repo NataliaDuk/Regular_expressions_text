@@ -10,6 +10,12 @@
 </head>
 
 <body>
+<div class=gallery>
+    <img src="images7.jpg" width="450px" height="300px" alt="">
+    <img src="images2.jpg" awidth="450px" height="300px" lt="">
+    <img src="images3.jpg" width="450px" height="300px" alt="">
+    <img src="images8.jpg" width="450px" height="300px" alt="">
+    </div>
 <div class="list">
 <h1>Роман Война и мир<br><i>Толстой Л.Н.<i></h1>
 	<?php
